@@ -10,7 +10,7 @@ const Hero = () => {
           autoPlay
           muted
           loop
-          className="rotate-180 absolute top-[-340px]  h-full w-full left-0  object-cover "
+          className="rotate-180 absolute top-[-450px]  h-full w-full left-0  object-cover "
         />
       </div>
       <StarsCanvas />
@@ -25,12 +25,12 @@ const Hero = () => {
             className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto text-center"
           >
             <span>
-              Providing
+              Build Next
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
                 {" "}
-                the best{" "}
+                Generation{" "}
               </span>
-              project exprience
+              Websites
             </span>
           </motion.div>
 
@@ -38,9 +38,12 @@ const Hero = () => {
             // variants={slideInFromLeft(0.8)}
             className="text-lg text-gray-400 my-5 max-w-[600px]"
           >
-            I&apos;m a Full Stack Software Engineer with experience in Website,
-            Mobile, and Software development. Check out my projects and skills.
+            We don’t just develop a website, we develop your business. Complete
+            web-based solution
           </motion.p>
+          <p className="text-lg text-gray-400 my-5 max-w-[600px]">
+            Better Online Presence + Better Branding = Better Profits.
+          </p>
           <motion.a
             // variants={slideInFromLeft(1)}
             className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
