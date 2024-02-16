@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import {StarsCanvas } from './canvas';
+import { StarsCanvas } from "./canvas";
 
 const Hero = () => {
   return (
@@ -13,11 +13,11 @@ const Hero = () => {
           className="rotate-180 absolute top-[-340px]  h-full w-full left-0  object-cover "
         />
       </div>
-      <StarsCanvas/>
+      <StarsCanvas />
       <motion.div
         initial="hidden"
         animate="visible"
-        className="flex flex-row items-center justify-center px-20 mt-40 w-full z-[20] h-screen"
+        className="flex flex-row items-center justify-center px-20 mt-40 w-full z-[0] h-screen"
       >
         <div className="h-full mt-10 text-center">
           <motion.div
