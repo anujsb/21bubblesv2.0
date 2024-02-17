@@ -15,18 +15,21 @@ const CTA = () => (
   //     <Button />
   //   </div>
   // </section>
-  <div className="h-auto">
-      <div className="">
-        <div>
-        <h1 className="text-white text-4xl">Contact Us at.</h1>
-        <a href="mailto:21bubbles.web@gmail.com" className="md:ml-10 lg:ml-10 sm:ml-0 my-20 text-white lg:text-8xl md:text-8xl sm:text-xl md:text-left lg:text-left sm:text-center ">21bubbles.web<nav>@gmail.com</nav></a>
-          <h1 
-          >
-            
-          </h1>
-        </div>
+  <div className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow`}>
+    <div className=" z-[50]">
+      <div>
+        <h1 className="text-white text-4xl m-10">Contact Us at.</h1>
+        <a
+          className="text-white text-8xl z-[50]"
+          href="mailto:21bubbles.web@gmail.com"
+        >
+          21bubbles.web
+          <br />
+          @gmail.com
+        </a>
       </div>
     </div>
+  </div>
 );
 
 export default CTA;

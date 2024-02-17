@@ -36,20 +36,20 @@ const Hero = () => {
 
           <motion.p
             // variants={slideInFromLeft(0.8)}
-            className="text-lg text-gray-400 my-5 max-w-[600px]"
+            className="text-lg text-white my-5 max-w-[600px]"
           >
             We don’t just develop a website, we develop your business. Complete
             web-based solution
           </motion.p>
-          <p className="text-lg text-gray-400 my-5 max-w-[600px]">
+          <p className="text-lg text-white my-5 max-w-[600px]">
             Better Online Presence + Better Branding = Better Profits.
           </p>
-          <motion.a
+          {/* <motion.a
             // variants={slideInFromLeft(1)}
             className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
           >
             Learn More!
-          </motion.a>
+          </motion.a> */}
         </div>
       </motion.div>
     </motion.div>

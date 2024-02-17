@@ -8,8 +8,8 @@ const CardDeal = () => (
   <div className="h-auto z-[50]">
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        Find a better card deal <br className="sm:block hidden" /> in few easy
-        steps.
+        Services we provide:
+        {/* <br className="sm:block hidden" /> in few easy steps. */}
       </h2>
     </div>
     <div className="grid grid-cols-3 gap-6 m-20">
