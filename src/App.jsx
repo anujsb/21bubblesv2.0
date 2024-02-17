@@ -28,12 +28,10 @@ const App = () => (
 
     <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
-        <Billing /> {/*about*/}
-        <CardDeal />
-        {/*serv*/}
-        <Business /> {/*?*/}
-        <Testimonials /> {/*test*/}
-        
+        <Billing /> {/*about*/}{/*done*/}
+        <CardDeal /> {/*serv*/}{/*done*/}
+        <Business /> {/*info2*/}{/*done*/}
+        <Testimonials /> {/*test*/}{/*done*/}
         {/* <Clients /> */}
         {/* <Stats />  */}
         <CTA /> {/*contact*/}
