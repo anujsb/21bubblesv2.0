@@ -47,23 +47,23 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
+      "21bubbles exceeded my expectations—affordable, knowledgeable team, and a seamless site development experience. Thank you for your professionalism and timely delivery!      ",
+    name: "Swapnil Patel",
+    title: "Founder @BEIYO",
     img: people01,
   },
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
+      "Kudos to 21bubbles Developer! Professionalism, timely completion, and understanding of my requirements. Highly recommended for website development. Thanks, team!      ",
+    name: "Mohit Baraskar ",
+    title: "Founder @Apester",
     img: people02,
   },
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
+      "Big thanks to 21bubbles for excellent service! Highly recommend their knowledgeable and helpful team for website development. Grateful for their expertise!      ",
     name: "Kenn Gallagher",
     title: "Founder & Leader",
     img: people03,
