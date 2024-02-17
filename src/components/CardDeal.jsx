@@ -16,7 +16,7 @@ const CardDeal = () => (
       <motion.div
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.9 }}
-        className=" text-white text-center rounded-2xl h-90 z-[50] serv-card opacity-75 "
+        className=" text-white text-center rounded-2xl h-90 z-[50] serv-card opacity-80 hover:opacity-100 "
       >
         <div className="p-2">
           <h1 className="text-4xl font-bold text-start">Chatbots</h1>
@@ -44,7 +44,7 @@ const CardDeal = () => (
       <motion.div
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.9 }}
-        className=" text-white text-center rounded-2xl h-90 z-[50] serv-card opacity-83"
+        className=" text-white text-center rounded-2xl h-90 z-[50] serv-card opacity-80 hover:opacity-100"
       >
         <div className="p-2">
           <h1 className="text-4xl font-bold text-start">Websites</h1>
@@ -77,7 +77,7 @@ const CardDeal = () => (
       <motion.div
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.9 }}
-        className=" text-white text-center rounded-2xl h-90 z-[50] serv-card opacity-75 "
+        className=" text-white text-center rounded-2xl h-90 z-[50] serv-card opacity-80 hover:opacity-100 "
       >
         <div className="p-2">
           <h1 className="text-4xl font-bold text-start">Automations</h1>
