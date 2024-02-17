@@ -124,6 +124,17 @@
 .feedback-card:hover {
   background: var(--black-gradient);
 }
+.serv-container .feedback-card:last-child {
+  margin-right: 0px;
+}
+
+.serv-card {
+  background: var(--black-gradient);
+}
+
+.serv-card:hover {
+  background: var(--black-gradient);
+}
 
 .blue__gradient {
   background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);

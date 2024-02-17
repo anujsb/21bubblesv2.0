@@ -16,7 +16,7 @@ const CardDeal = () => (
       <motion.div
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.9 }}
-        className="bg-black text-white text-center rounded-2xl h-60 opacity-50"
+        className="bg-black text-white text-center rounded-2xl h-60 z-[50] serv-card"
       >
         chat
       </motion.div>
@@ -24,14 +24,14 @@ const CardDeal = () => (
       <motion.div
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.9 }}
-        className="bg-black text-white text-center rounded-2xl h-60 opacity-50 "
+        className="bg-black text-white text-center rounded-2xl h-60 z-[50] serv-card"
       >
         AUTO
       </motion.div>
       <motion.div
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.9 }}
-        className="bg-black text-white col-span-2 text-center rounded-2xl h-60 opacity-50"
+        className="bg-black text-white col-span-2 text-center rounded-2xl h-60 z-[50] serv-card"
       >
         WEB
       </motion.div>
