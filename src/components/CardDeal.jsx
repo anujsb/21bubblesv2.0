@@ -1,4 +1,6 @@
 import { motion } from "framer-motion";
+import { apple, web, google } from "../assets";
+
 
 import styles, { layout } from "../style";
 import Button from "./Button";
@@ -11,30 +13,62 @@ const CardDeal = () => (
         steps.
       </h2>
     </div>
-    <div className="grid grid-cols-2 gap-6 m-20">
+    <div className="grid grid-cols-3 gap-6 m-20">
+      
       <motion.div
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.9 }}
-        className=" text-white col-span-2 text-center rounded-2xl h-80 z-[50] serv-card opacity-70"
+        className=" text-white text-center rounded-2xl h-90 z-[50] serv-card opacity-75 "
       >
         <div className="p-2">
-          <h1 className="font-bold text-start">Website Development</h1>
+          <h1 className="text-4xl font-bold text-start">Chatbots</h1>
+          <p className="text-start p-2">sxrdgfvbhnoiugnityfv8byu ftygubhinjomkp</p>
+          
+
+          <div className="m-10 grid grid-cols-1 items-end ">
+            <button className=" border-gray-50 m-0.5 p-2 rounded-lg border-2">GPT Development</button>
+            <button className=" border-gray-50 m-0.5 p-2 rounded-lg border-2">Secure Solutions</button>
+            <button className=" border-gray-50 m-0.5 p-2 rounded-lg border-2">Knowledge Response</button>
+            <button className=" border-gray-50 m-0.5 p-2 rounded-lg border-2">Model Tuning</button>
+          </div>
         </div>
       </motion.div>
       <motion.div
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.9 }}
-        className=" text-white text-center rounded-2xl h-80 z-[50] serv-card opacity-70 "
+        className=" text-white text-center rounded-2xl h-90 z-[50] serv-card opacity-83"
       >
-        chat
+        <div className="p-2">
+          <h1 className="text-4xl font-bold text-start">Websites</h1>
+          <p className="text-start p-2">sxrdgfvbhnoiugnityfv8byu ftygubhinjomkp</p>
+          
+
+          <div className="m-10 grid grid-cols-1 items-end ">
+            <button className=" border-gray-50 m-0.5 p-2 rounded-lg border-2">GPT Development</button>
+            <button className=" border-gray-50 m-0.5 p-2 rounded-lg border-2">Secure Solutions</button>
+            <button className=" border-gray-50 m-0.5 p-2 rounded-lg border-2">Knowledge Response</button>
+            <button className=" border-gray-50 m-0.5 p-2 rounded-lg border-2">Model Tuning</button>
+          </div>
+        </div>
       </motion.div>
 
       <motion.div
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.9 }}
-        className=" text-white text-center rounded-2xl h-80 z-[50] serv-card opacity-70 "
+        className=" text-white text-center rounded-2xl h-90 z-[50] serv-card opacity-75 "
       >
-        AUTO
+        <div className="p-2">
+          <h1 className="text-4xl font-bold text-start">Automations</h1>
+          <p className="text-start p-2">sxrdgfvbhnoiugnityfv8byu ftygubhinjomkp</p>
+          
+
+          <div className="m-10 grid grid-cols-1 items-end ">
+            <button className=" border-gray-50 m-0.5 p-2 rounded-lg border-2">GPT Development</button>
+            <button className=" border-gray-50 m-0.5 p-2 rounded-lg border-2">Secure Solutions</button>
+            <button className=" border-gray-50 m-0.5 p-2 rounded-lg border-2">Knowledge Response</button>
+            <button className=" border-gray-50 m-0.5 p-2 rounded-lg border-2">Model Tuning</button>
+          </div>
+        </div>
       </motion.div>
     </div>
   </div>
