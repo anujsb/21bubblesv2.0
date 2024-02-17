@@ -10,19 +10,19 @@ const Hero = () => {
           autoPlay
           muted
           loop
-          className="rotate-180 absolute top-[-450px]  h-full w-full left-0  object-cover "
+          className="rotate-180 absolute top-[-380px]  h-full w-full left-0  object-cover "
         />
       </div>
       <StarsCanvas />
       <motion.div
         initial="hidden"
         animate="visible"
-        className="flex flex-row items-center justify-center px-20 mt-40 w-full z-[0] h-screen"
+        className="flex flex-row items-center justify-center px-20  w-full z-[0] h-screen"
       >
-        <div className="h-full mt-10 text-center">
+        <div className="h-auto text-center">
           <motion.div
             // variants={slideInFromLeft(0.5)}
-            className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto text-center"
+            className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[650px] w-auto h-auto text-center"
           >
             <span>
               Build Next

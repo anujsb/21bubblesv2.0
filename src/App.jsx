@@ -22,19 +22,21 @@ const App = () => (
 
     <div className={`bg-primary ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
-        <Hero />
+        <Hero /> {/*done*/}
       </div>
     </div>
 
     <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
-        {/* <Stats /> */}
         <Billing /> {/*about*/}
-        <Business />
         <CardDeal />
-        <Testimonials />
-        <Clients />
-        <CTA />
+        {/*serv*/}
+        <Business /> {/*?*/}
+        <Testimonials /> {/*test*/}
+        
+        <Clients /> {/*?*/}
+        <Stats /> {/*?*/}
+        <CTA /> {/*contact*/}
         <Footer />
       </div>
     </div>
