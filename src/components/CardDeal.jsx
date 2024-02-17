@@ -4,7 +4,7 @@ import styles, { layout } from "../style";
 import Button from "./Button";
 
 const CardDeal = () => (
-  <div className="h-auto ">
+  <div className="h-auto z-[50]">
     <div className={layout.sectionInfo}>
       
       <h2 className={styles.heading2}>

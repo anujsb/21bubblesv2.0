@@ -23,23 +23,23 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "STRATEGY",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "A well-crafted strategy is the foundation for achieving long-term goals, adapting to change, and outmaneuvering competitors.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "EXECUTION",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "A brilliant strategy alone is not enough; it's in the execution that success is truly achieved. Execution demands discipline, commitment, and a relentless focus on the details.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "OPTIMIZATION",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Optimization is the relentless pursuit of improvement, driven by data, analysis, and innovation. In business, optimization is the key to staying competitive and agile.",
   },
 ];
 
