@@ -15,12 +15,14 @@ const CTA = () => (
   //     <Button />
   //   </div>
   // </section>
-  <div className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow`}>
+  <div
+    className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col `}
+  >
     <div className=" z-[50]">
-      <div>
-        <h1 className="text-white text-4xl m-10">Contact Us at.</h1>
+      <h1 className="text-white text-4xl m-10 ">Contact Us at.</h1>
+      <div className="bg-black-gradient-2 rounded-[20px] box-shadow p-10">
         <a
-          className="text-white text-8xl z-[50]"
+          className="text-white lg:text-7xl md:text-7xl sm:text-3xl z-[50] "
           href="mailto:21bubbles.web@gmail.com"
         >
           21bubbles.web

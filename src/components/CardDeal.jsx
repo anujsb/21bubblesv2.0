@@ -12,7 +12,7 @@ const CardDeal = () => (
         {/* <br className="sm:block hidden" /> in few easy steps. */}
       </h2>
     </div>
-    <div className="grid grid-cols-3 gap-6 m-20">
+    <div className="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1  gap-6 my-10">
       <motion.div
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.9 }}
@@ -25,7 +25,7 @@ const CardDeal = () => (
             understanding, and seamless user experiences.
           </p>
 
-          <div className="m-10 grid grid-cols-1 items-end ">
+          <div className="m-10 grid md:grid-cols-1 lg:grid-cols-1 sm:grid-cols-3 items-end ">
             <button className=" border-gray-50 m-0.5 p-2 rounded-lg border-2">
               GPT Development
             </button>
