@@ -51,6 +51,7 @@ export const feedback = [
     name: "Swapnil Patel",
     title: "Founder @BEIYO",
     img: people01,
+    link: "https://www.beiyo.in/",
   },
   {
     id: "feedback-2",
@@ -59,6 +60,7 @@ export const feedback = [
     name: "Mohit Baraskar ",
     title: "Founder @Apester",
     img: people02,
+    link: "https://apester.in/",
   },
   {
     id: "feedback-3",
@@ -67,6 +69,7 @@ export const feedback = [
     name: "Kenn Gallagher",
     title: "Founder & Leader",
     img: people03,
+    link: "",
   },
 ];
 
@@ -173,7 +176,7 @@ export const socialMedia = [
   {
     id: "social-media-4",
     icon: linkedin,
-    link: "https://www.linkedin.com/",
+    link: "https://www.linkedin.com/company/21bubbles",
   },
 ];
 

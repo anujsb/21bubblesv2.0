@@ -17,7 +17,10 @@ const Billing = () => (
         Where ideas <br className="sm:block hidden" /> meet technology.
       </h2>
       <p className={`${styles.paragraph} max-w-[500px] mt-5 z-[5]`}>
-      As a leading web development company with over 1 year of experience, 21bubbles offers a comprehensive 360° web-based service, covering development to maintenance. We take immense pride in our work, continuously striving to be the best in the industry. Specializing in providing early-stage startups with websites, personalized automated chatbots, SEO management, and email automation, 21bubbles is your trusted partner to bring your vision to life and propel your business forward.
+        21bubbles: Your Premier Web Partner Unlocking your digital potential,
+        21bubbles delivers top-tier web solutions. Specializing in startups, we
+        craft bespoke websites, chatbots, SEO, and email automation. Elevate
+        your business with us today.{" "}
       </p>
 
       {/* <div className="flex flex-row flex-wrap sm:mt-10 mt-6">

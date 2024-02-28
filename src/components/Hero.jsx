@@ -30,7 +30,7 @@ const Hero = () => {
                 {" "}
                 Generation{" "}
               </span>
-              Websites
+              Brands
             </span>
           </motion.div>
 
@@ -38,12 +38,11 @@ const Hero = () => {
             // variants={slideInFromLeft(0.8)}
             className="text-lg text-white my-5 max-w-[600px]"
           >
-            We don’t just develop a website, we develop your business. Complete
-            web-based solution
+            WE DESIGN AND BUILD LOVABLE DIGITAL PRODUCTS, BRANDS, AND EXPERIENCES.
           </motion.p>
-          <p className="text-lg text-white my-5 max-w-[600px]">
+          {/* <p className="text-lg text-white my-5 max-w-[600px]">
             Better Online Presence + Better Branding = Better Profits.
-          </p>
+          </p> */}
           {/* <motion.a
             // variants={slideInFromLeft(1)}
             className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
