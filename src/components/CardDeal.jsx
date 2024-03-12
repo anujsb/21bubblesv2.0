@@ -5,7 +5,7 @@ import styles, { layout } from "../style";
 import Button from "./Button";
 
 const CardDeal = () => (
-  <div className="h-auto z-[50]">
+  <div id="service" className="h-auto z-[50]">
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
         Services we provide:
@@ -19,7 +19,7 @@ const CardDeal = () => (
         className=" text-white text-center rounded-2xl h-90 z-[50] serv-card opacity-80 hover:opacity-100 "
       >
         <div className="p-2">
-          <h1 className="text-4xl font-bold text-start">Chatbots</h1>
+          <h1 className="text-4xl font-bold text-start">AI-Chatbots</h1>
           <p className="text-start p-2">
             chatbots that deliver human-like interactions, rich contextual
             understanding, and seamless user experiences.
@@ -47,7 +47,7 @@ const CardDeal = () => (
         className=" text-white text-center rounded-2xl h-90 z-[50] serv-card opacity-80 hover:opacity-100"
       >
         <div className="p-2">
-          <h1 className="text-4xl font-bold text-start">Websites</h1>
+          <h1 className="text-4xl font-bold text-start">3D-Websites</h1>
           <p className="text-start p-2">
             Websites reflecting your brand and values, offering
             interactive 3D experiences and captivating user interfaces to engage

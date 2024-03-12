@@ -16,6 +16,7 @@ const CTA = () => (
   //   </div>
   // </section>
   <div
+    id="contactus"
     className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col `}
   >
     <div className=" z-[50]">
