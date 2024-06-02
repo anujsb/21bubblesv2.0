@@ -25,6 +25,10 @@ import people02 from "./people02.png";
 import people03 from "./people03.png";
 import info from "./info.png";
 import web from './web.jpg';
+import Apester from "./Apester-1.png"
+import hireSync from "./hireSync.jpg";
+import BEIYO from './BEIYO-1.png';
+import SellerKin from "./SellerKin-1.png";
 
 export {
   airbnb,
@@ -54,4 +58,8 @@ export {
   people03,
   info,
   web,
+  Apester,
+  hireSync,
+  BEIYO,
+  SellerKin,
 };

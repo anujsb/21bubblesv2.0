@@ -1,4 +1,23 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import {
+  people01,
+  people02,
+  people03,
+  facebook,
+  instagram,
+  linkedin,
+  twitter,
+  airbnb,
+  binance,
+  coinbase,
+  dropbox,
+  send,
+  shield,
+  star,
+  Apester,
+  hireSync,
+  SellerKin,
+  BEIYO
+} from "../assets";
 
 export const navLinks = [
   {
@@ -70,10 +89,45 @@ export const feedback = [
     id: "feedback-3",
     content:
       "Big thanks to 21bubbles for excellent service! Highly recommend their knowledgeable and helpful team for website development. Grateful for their expertise!      ",
-    name: "Kenn Gallagher",
+    name: "Amit Miglani",
     title: "Founder & Leader",
     img: people03,
-    link: "",
+    link: "http://Sellerkin.com",
+  },
+];
+
+export const Project = [
+  {
+    id: "Project-1",
+    name: "BEIYO",
+    img: BEIYO,
+    desc: "Beiyo is a startup specializing in hostel accommodation. We partner with PG and hostel owners to renovate rooms and enhance facilities, offering a modern and comfortable living experience.",
+    // img: people01,
+    link: "https://www.beiyo.in/",
+  },
+  {
+    id: "Project-2",
+    name: "Apester.in",
+    img: Apester,
+    desc: "Apester.in is an online clothing brand offering affordable and customizable apparel for men and women, including T-shirts, hoodies, and sweatshirts.",
+    // img: people01,
+    link: "http://Apester.in",
+  },
+  {
+    id: "Project-3",
+    name: "SellerKin",
+    img: SellerKin,
+    desc: "Sellerkin.com is an online platform that helps individuals start and manage their own e-commerce businesses by providing tools, resources, and support.",
+    // img: people01,
+    link: "http://Sellerkin.com",
+  },
+  {
+    id: "Project-4",
+    name: "HireSync",
+    img: hireSync,
+    desc: "HireSync is a tool that often constitutes an automated process in which you follow a template and input your information. Ability to build, print, and download your resume for free in minutes.",
+    // img: people01,
+    link: "https://hiresync-resume-builder.vercel.app/",
   },
 ];
 

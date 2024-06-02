@@ -11,6 +11,7 @@ import {
   Testimonials,
   Hero,
 } from "./components";
+import Projects from "./components/Projects";
 
 const App = () => (
   <div className="bg-primary w-full overflow-hidden">
@@ -28,10 +29,15 @@ const App = () => (
 
     <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
-        <Billing /> {/*about*/}{/*done*/}
-        <CardDeal /> {/*serv*/}{/*done*/}
-        <Business /> {/*info2*/}{/*done*/}
-        <Testimonials /> {/*test*/}{/*done*/}
+        <Billing /> {/*about*/}
+        {/*done*/}
+        <CardDeal /> {/*serv*/}
+        {/*done*/}
+        <Business /> {/*info2*/}
+        {/*done*/}
+        <Projects />
+        <Testimonials /> {/*test*/}
+        {/*done*/}
         {/* <Clients /> */}
         {/* <Stats />  */}
         <CTA /> {/*contact*/}
