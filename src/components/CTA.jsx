@@ -26,9 +26,7 @@ const CTA = () => (
           className="text-white lg:text-7xl md:text-7xl sm:text-3xl z-[50] "
           href="mailto:team@21bubbles.com"
         >
-          team
-          <br />
-          @21bubbles.com
+          21bubbles.web@gmail.com
         </a>
       </div>
     </div>
