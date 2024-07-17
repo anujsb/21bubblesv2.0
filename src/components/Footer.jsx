@@ -18,10 +18,12 @@ const Footer = () => (
           </p>
           <ul className="text-base leading-relaxed text-gray-200 mt-7">
             <li>
-              <p className="text-white">Reach out to us via  phone:</p>
+              <p className="text-white">Reach out to us via phone:</p>
             </li>
             <li className="font-bold">+91 9021823841</li>
-            <li><a href="mailto:anujsbhuyar@gmail.com"></a>anujsbhuyar@gmail.com</li>
+            <li>
+              <a href="mailto:anujsbhuyar@gmail.com"></a>anujsbhuyar@gmail.com
+            </li>
             <li>
               <a className="text-gray-200" href="mailto:anujsbhuyar@gmail.com">
                 {/* anujsbhuyar@gmail.com */}
@@ -88,7 +90,7 @@ const Footer = () => (
       </div> */}
     </div>
 
-    <div className="w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#3F3E45]">
+    <div className="w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#3F3E45] z-50">
       <p className="font-poppins font-normal text-center text-[14px] leading-[27px] text-white">
         &copy; Copyright 2024, All Rights Reserved by 21bubbles
       </p>
