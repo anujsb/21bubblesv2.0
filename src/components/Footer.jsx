@@ -33,21 +33,21 @@ const Footer = () => (
           </ul>
         </div>
 
-        <div className="lg:pl-8">
+        {/* <div className="lg:pl-8">
           <p className="text-sm font-semibold tracking-widest text-[#F2F2F2] uppercase">
             Lets talk
           </p>
 
-          {/* <form action="#" method="POST" className="mt-6 content-center"> */}
+          <form action="#" method="POST" className="mt-6 content-center">
           <form
-            // ref={form}
-            // onSubmit={sendEmail}
+            ref={form}
+            onSubmit={sendEmail}
             className="mt-6 content-center"
           >
             <div>
-              {/* <label htmlFor="email" className="sr-only"> */}
-              {/* <label>Email</label> */}
-              {/* <input type="email" name="email" id="email" placeholder="Enter your email" className=" content-center  p-4 text-[#F2F2F2] placeholder-[#F2F2F2] transition-all duration-200 bg-neutral-800 border border-[#F2F2F2] rounded-md focus:outline-none focus:border-zinc-600 caret-[#F2F2F2]" /> */}
+              <label htmlFor="email" className="sr-only">
+              <label>Email</label>
+              <input type="email" name="email" id="email" placeholder="Enter your email" className=" content-center  p-4 text-[#F2F2F2] placeholder-[#F2F2F2] transition-all duration-200 bg-neutral-800 border border-[#F2F2F2] rounded-md focus:outline-none focus:border-zinc-600 caret-[#F2F2F2]" />
               <input
                 type="email"
                 name="user_email"
@@ -64,7 +64,7 @@ const Footer = () => (
               Submit
             </button>
           </form>
-        </div>
+        </div> */}
       </div>
 
       {/* <div className="flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10">
