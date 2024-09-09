@@ -24,7 +24,7 @@ const CTA = () => (
       <div className="bg-black-gradient-2 rounded-[20px] box-shadow p-10">
         <a
           className="text-white lg:text-7xl md:text-7xl sm:text-3xl z-[50] "
-          href="mailto:team@21bubbles.com"
+          href="mailto:21bubbles.web@gmail.com"
         >
           21bubbles.web@gmail.com
         </a>
