@@ -76,15 +76,15 @@ export const feedback = [
     img: people01,
     link: "https://www.beiyo.in/",
   },
-  {
-    id: "feedback-2",
-    content:
-      "Kudos to 21bubbles Developer! Professionalism, timely completion, and understanding of my requirements. Highly recommended for website development. Thanks, team!      ",
-    name: "Mohit Baraskar ",
-    title: "Founder @Apester",
-    img: people02,
-    link: "https://apester.in/",
-  },
+  // {
+  //   id: "feedback-2",
+  //   content:
+  //     "Kudos to 21bubbles Developer! Professionalism, timely completion, and understanding of my requirements. Highly recommended for website development. Thanks, team!      ",
+  //   name: "Mohit Baraskar ",
+  //   title: "Founder @Apester",
+  //   img: people02,
+  //   link: "https://apester.in/",
+  // },
   {
     id: "feedback-3",
     content:
@@ -105,14 +105,14 @@ export const Project = [
     // img: people01,
     link: "https://www.beiyo.in/",
   },
-  {
-    id: "Project-2",
-    name: "Apester.in",
-    img: Apester,
-    desc: "Apester.in is an online clothing brand offering affordable and customizable apparel for men and women, including T-shirts, hoodies, and sweatshirts.",
-    // img: people01,
-    link: "http://Apester.in",
-  },
+  // {
+  //   id: "Project-2",
+  //   name: "Apester.in",
+  //   img: Apester,
+  //   desc: "Apester.in is an online clothing brand offering affordable and customizable apparel for men and women, including T-shirts, hoodies, and sweatshirts.",
+  //   // img: people01,
+  //   link: "http://Apester.in",
+  // },
   {
     id: "Project-3",
     name: "SellerKin",

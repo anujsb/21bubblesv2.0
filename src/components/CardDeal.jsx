@@ -5,7 +5,7 @@ import styles, { layout } from "../style";
 import Button from "./Button";
 
 const CardDeal = () => (
-  <div id="service" className="h-auto z-[50]">
+  <div id="service" className="h-auto z-[50] ">
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
         Services we provide:
