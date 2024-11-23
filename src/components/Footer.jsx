@@ -18,11 +18,11 @@ const Footer = () => (
           </p>
           <ul className="text-base leading-relaxed text-gray-200 mt-7">
             <li>
-              <p className="text-white">Reach out to us via phone:</p>
+              {/* <p className="text-white">Reach out to us via phone:</p> */}
             </li>
-            <li className="font-bold">+91 9021823841</li>
+            {/* <li className="font-bold">+91 9021823841</li> */}
             <li>
-              <a href="mailto:anujsbhuyar@gmail.com">anujsbhuyar@gmail.com</a>
+              {/* <a href="mailto:anujsbhuyar@gmail.com">anujsbhuyar@gmail.com</a> */}
             </li>
             <li>
               <a className="text-gray-200" href="mailto:anujsbhuyar@gmail.com">
